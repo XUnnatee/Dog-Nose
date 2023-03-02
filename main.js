@@ -29,7 +29,7 @@ console.log("nose y = " + results[0].pose.nose.y);
 function draw() {
 image (video, 0, 0, 300, 300);
 
-image(dog_nose,noseX,noseY,100,100);
+image(dog_nose,noseX-50,noseY-50,100,100);
 }
 function take_snapshot(){
 save('myFilterImage.png');}
